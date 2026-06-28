@@ -42,7 +42,7 @@ kmeans_algorithm/
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/your-username/kmeans-algorithm.git
+git clone https://github.com/duytanst2004/kmeans-algorithm.git
 cd kmeans-algorithm
 
 # 2. Tạo môi trường ảo (khuyến nghị)
@@ -97,3 +97,17 @@ Repeat until convergence:
 **Error** hiển thị trên giao diện là tổng khoảng cách Euclidean từ mỗi điểm đến tâm cụm của nó — giá trị này giảm dần qua mỗi lần nhấn **Run**.
 
 ---
+
+## Demo
+
+### Khởi tạo dữ liệu
+![init_data.png](image/init_data.png)
+
+### Gán và cập nhật tâm cụm
+![upd_1.png](image/upd_1.png)
+![upd_2.png](image/upd_2.png)
+![upd_3.png](image/upd_3.png)
+![upd_4.png](image/upd_4.png)
+
+### Sử dụng thư viện K-means
+![kmeans_library.png](image/kmeans_library.png)
