@@ -1,4 +1,4 @@
-# KMeans Visualization
+# KMeans Visualization App
 
 Ứng dụng trực quan hóa thuật toán **K-Means Clustering** theo thời gian thực, xây dựng bằng `pygame`. Người dùng có thể tự đặt điểm dữ liệu, chọn số cụm K, chạy từng bước lặp thủ công hoặc để scikit-learn giải quyết toàn bộ.
 
@@ -19,7 +19,7 @@
 ## Cấu trúc dự án
 
 ```
-kmeans_algorithm/
+kmeans_visualization_app/
 ├── main.py             # Vòng lặp game chính, render và xử lý event
 ├── config.py           # Hằng số: màu sắc, kích thước cửa sổ, layout
 ├── button.py           # Class TextButton
@@ -42,7 +42,7 @@ kmeans_algorithm/
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/duytanst2004/kmeans-algorithm.git
+git clone https://github.com/duytanst2004/kmeans-visualization-app.git
 cd kmeans-algorithm
 
 # 2. Tạo môi trường ảo (khuyến nghị)
